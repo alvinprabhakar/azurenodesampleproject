@@ -6,7 +6,7 @@ let port = 3001;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send({ message: "Welcome" });
+  res.send({ message: "Welcome test" });
 });
 
 app.listen(process.env.PORT || port);
